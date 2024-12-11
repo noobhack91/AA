@@ -1,0 +1,7 @@
+{"level":"info","message":"Database tables recreated successfully","timestamp":"2024-12-11T05:39:49.851Z"}
+{"level":"info","message":"Created user with role: admin","timestamp":"2024-12-11T05:39:49.986Z"}
+{"level":"info","message":"Created user with role: logistics","timestamp":"2024-12-11T05:39:49.994Z"}
+{"level":"info","message":"Created user with role: challan","timestamp":"2024-12-11T05:39:49.997Z"}
+{"level":"info","message":"Created user with role: installation","timestamp":"2024-12-11T05:39:50.000Z"}
+{"level":"info","message":"Created user with role: invoice","timestamp":"2024-12-11T05:39:50.003Z"}
+{"level":"info","message":"Database initialized successfully","timestamp":"2024-12-11T05:39:50.008Z"}

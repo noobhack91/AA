@@ -1,9 +1,0 @@
-id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_warehouse_cold_store_user,warehouse.cold.store.user,model_warehouse_cold_store,stock.group_stock_user,1,0,0,0
-access_warehouse_cold_store_manager,warehouse.cold.store.manager,model_warehouse_cold_store,stock.group_stock_manager,1,1,1,1
-access_warehouse_fridge_user,warehouse.fridge.user,model_warehouse_fridge,stock.group_stock_user,1,0,0,0
-access_warehouse_fridge_manager,warehouse.fridge.manager,model_warehouse_fridge,stock.group_stock_manager,1,1,1,1
-access_warehouse_rack_user,warehouse.rack.user,model_warehouse_rack,stock.group_stock_user,1,0,0,0
-access_warehouse_rack_manager,warehouse.rack.manager,model_warehouse_rack,stock.group_stock_manager,1,1,1,1
-access_warehouse_rack_section_user,warehouse.rack.section.user,model_warehouse_rack_section,stock.group_stock_user,1,0,0,0
-access_warehouse_rack_section_manager,warehouse.rack.section.manager,model_warehouse_rack_section,stock.group_stock_manager,1,1,1,1
