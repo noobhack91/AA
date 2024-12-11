@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_rack_tree" model="ir.ui.view">
+        <field name="name">warehouse.rack.tree</field>
+        <field name="model">warehouse.rack</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="cold_store_id"/>
+                <field name="column_count"/>
+                <field name="row_count"/>
+                <field name="material"/>
+                <field name="max_weight_capacity"/>
+                <field name="active"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_rack_form" model="ir.ui.view">
+        <field name="name">warehouse.rack.form</field>
+        <field name="model">warehouse.rack</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="cold_store_id"/>
+                            <field name="column_count"/>
+                            <field name="row_count"/>
+                            <field name="material"/>
+                        </group>
+                        <group>
+                            <field name="height"/>
+                            <field name="width"/>
+                            <field name="length"/>
+                            <field name="max_weight_capacity"/>
+                            <field name="active"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Sections">
+                            <field name="section_ids"/>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_rack" model="ir.actions.act_window">
+        <field name="name">Racks</field>
+        <field name="res_model">warehouse.rack</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create your first rack!
+            </p>
+        </field>
+    </record>
+</odoo>

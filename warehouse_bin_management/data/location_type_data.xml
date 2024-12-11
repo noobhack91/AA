@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- Cold Store Type -->
+        <record id="location_type_cold_store" model="warehouse.location.type">
+            <field name="name">Cold Store</field>
+            <field name="code">CS</field>
+            <field name="sequence">10</field>
+            <field name="description">Temperature controlled storage area for perishable goods</field>
+        </record>
+
+        <!-- Fridge Type -->
+        <record id="location_type_fridge" model="warehouse.location.type">
+            <field name="name">Fridge</field>
+            <field name="code">F</field>
+            <field name="sequence">20</field>
+            <field name="description">Individual refrigeration unit for temperature-sensitive items</field>
+        </record>
+
+        <!-- Rack Type -->
+        <record id="location_type_rack" model="warehouse.location.type">
+            <field name="name">Rack</field>
+            <field name="code">R</field>
+            <field name="sequence">30</field>
+            <field name="description">Storage rack for organizing items in sections</field>
+        </record>
+    </data>
+</odoo>

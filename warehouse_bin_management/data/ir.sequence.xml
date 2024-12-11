@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- Cold Store Sequence -->
+        <record id="seq_cold_store" model="ir.sequence">
+            <field name="name">Cold Store Sequence</field>
+            <field name="code">cold.store.sequence</field>
+            <field name="prefix"></field>
+            <field name="padding">3</field>
+            <field name="company_id" eval="False"/>
+        </record>
+
+        <!-- Fridge Sequence -->
+        <record id="seq_fridge" model="ir.sequence">
+            <field name="name">Fridge Sequence</field>
+            <field name="code">fridge.sequence</field>
+            <field name="prefix"></field>
+            <field name="padding">3</field>
+            <field name="company_id" eval="False"/>
+        </record>
+
+        <!-- Rack Sequence -->
+        <record id="seq_rack" model="ir.sequence">
+            <field name="name">Rack Sequence</field>
+            <field name="code">rack.sequence</field>
+            <field name="prefix"></field>
+            <field name="padding">3</field>
+            <field name="company_id" eval="False"/>
+        </record>
+    </data>
+</odoo>
